@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('../../../pictures/orange_lambo.jpg');
+    background-size: 100%;
+}
+
+.buttondiv div{
+    display: flex;
+    justify-content: center;
+}
+
+.buttondiv div input{
+    height: 6vh;
+    width: 13vw;
+    margin: 1.2em;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: x-large;
+    background-color: rgba(22, 12, 12, 0.521);
+    border-width: 0em;
+    border-radius: 0.8em;
+    outline: 0.1em solid rgba(172, 113, 5, 0.555);
+    transition-duration: 500ms;
+}
+.buttondiv div input:hover{
+    background-color: rgba(172, 113, 5, 0.555);
+    color: black;
+    outline: 0.1em solid black;
+    transform: scale(1.1);
+}

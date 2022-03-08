@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calc.css" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="buttondiv">
+            <div>
+            <input class="enterval" id="ans" type="text" placeholder="Enter the value" >
+            </div>
+            <div class="first">
+                <input id="one" type="button" onclick="printval(1)" value='1' >
+                <input id="two" type="button" value="2" onclick="printval(2)">
+                <input id="three" type="button" value="3" onclick="printval(3)" >
+            </div>
+            <div class="sec">
+                <input id="four" type="button"  value="4" onclick="printval(4)" >
+                <input id="five" type="button" value="5" onclick="printval(5)" >
+                <input id="six" type="button" value="6" onclick="printval(6)" >
+            </div>
+            <div class="third">
+                <input id="seven" type="button" value="7" onclick="printval(7)" >
+                <input id="eight" type="button" value="8" onclick="printval(8)" >
+                <input id="nine" type="button" value="9" onclick="printval(9)" >
+            </div>
+            <div class="four">
+                <input id="zero" type="button" value="0" onclick="printval(0)" >
+                <input id="multi" type="button" value="*" onclick="printval('*')" >
+                <input id="divide" type="button" value="/" onclick="printval('/')" >
+            </div>
+            <div class="five">
+                <input id="add" type="button" value="+" onclick="printval('+')" >
+                <input id="sub" type="button" value="-" onclick="printval('-')" >
+                <input id="answer" type="button" value="=" onclick="solve()" >
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/calc.js"></script>
+</body>
+</html>
